@@ -6,7 +6,7 @@ function volume_sphere() {
 	let r = radius*radius*radius;
 
 	let v = 4/3 * 3.14 * r;
-	v = Math.ceil(v)
+	v = v.toFixed(4)
 	volume.value = v;
 	return false;
   
